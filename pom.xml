@@ -491,7 +491,7 @@
                 </property>
             </activation>
             <modules>
-                <module>jts</module>
+                <!-- module>jts</module -->
             </modules>
         </profile>
         <profile>
@@ -505,9 +505,9 @@
                 </property>
             </activation>
             <modules>
-                <module>ejb-remote</module>
-                <module>resteasy-jaxrs-client</module>
-                <module>jts</module>
+                <!-- module>ejb-remote</module -->
+                <!-- module>resteasy-jaxrs-client</module -->
+                <!-- module>jts</module -->
             </modules>
         </profile>
         <profile>
@@ -522,10 +522,10 @@
                 </property>
             </activation>
             <modules>
-                <module>helloworld-mbean</module>
-                <module>helloworld-mdb</module>
-                <module>helloworld-mdb-propertysubstitution</module>
-                <module>jta-crash-rec</module>
+                <!-- module>helloworld-mbean</module -->
+                <!-- module>helloworld-mdb</module -->
+                <!-- module>helloworld-mdb-propertysubstitution</module -->
+                <!-- module>jta-crash-rec</module -->
             </modules>
         </profile>
         <profile>
@@ -539,20 +539,20 @@
                 </property>
             </activation>
             <modules>
-                <module>wsat-simple</module>
-                <module>wsba-coordinator-completion-simple</module>
-                <module>wsba-participant-completion-simple</module>
+                <!-- module>wsat-simple</module -->
+                <!-- module>wsba-coordinator-completion-simple</module -->
+                <!-- module>wsba-participant-completion-simple</module -->
             </modules>
         </profile>
         <profile>
             <id>functional-tests</id>
             <modules>
-                <module>contacts-jquerymobile/functional-tests</module>
-                <module>helloworld-html5/functional-tests</module>
-                <module>kitchensink-angularjs/functional-tests</module>
-                <module>spring-greeter/functional-tests</module>
-                <module>spring-kitchensink-basic/functional-tests</module>
-                <module>spring-kitchensink-springmvctest/functional-tests</module>
+                <!-- module>contacts-jquerymobile/functional-tests</module -->
+                <!-- module>helloworld-html5/functional-tests</module -->
+                <!-- module>kitchensink-angularjs/functional-tests</module -->
+                <!-- module>spring-greeter/functional-tests</module -->
+                <!-- module>spring-kitchensink-basic/functional-tests</module -->
+                <!-- module>spring-kitchensink-springmvctest/functional-tests</module -->
             </modules>
         </profile>
 
