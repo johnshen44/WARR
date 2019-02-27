@@ -389,6 +389,10 @@
             <modules>
                 <!-- All the modules that require nothing but JBoss Enterprise
                     Application Platform or JBoss EAP -->
+                
+                 <module>helloworld-ws</module>
+                
+                <!--
                 <module>app-client</module>
                 <module>batch-processing</module>
                 <module>bean-validation</module>
@@ -472,6 +476,8 @@
                 <module>wicket-ear</module>
                 <module>wicket-war</module>
                 <module>xml-jaxp</module>
+            -->
+
             </modules>
         </profile>
         <profile>
