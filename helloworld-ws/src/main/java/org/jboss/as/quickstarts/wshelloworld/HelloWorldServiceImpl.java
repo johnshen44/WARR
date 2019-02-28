@@ -32,7 +32,7 @@ public class HelloWorldServiceImpl implements HelloWorldService {
 
     @Override
     public String sayHello() {
-        return "Hello World!";
+        return "Hello World! jontest";
     }
 
     @Override
@@ -47,7 +47,7 @@ public class HelloWorldServiceImpl implements HelloWorldService {
 
     @Override
     public String sayHelloToNames(final List<String> names) {
-        return "Hello " + createNameListString(names);
+        return "jontest2 Hello " + createNameListString(names);
     }
 
     /**
@@ -65,7 +65,7 @@ public class HelloWorldServiceImpl implements HelloWorldService {
          * If the list is null or empty then assume the call was anonymous.
          */
         if (names == null || names.isEmpty()) {
-            return "Anonymous!";
+            return "johntest3 Anonymous!";
         }
 
         final StringBuilder nameBuilder = new StringBuilder();
