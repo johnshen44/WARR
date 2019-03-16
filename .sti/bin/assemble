@@ -1,3 +1,5 @@
 #!/bin/sh
 
-mv /tmp/src/helloworld-ws/target/ROOT.war /opt/eap/standalone/deployments
+echo | pwd
+echo | ls
+mv /tmp/src/helloworld-ws/target/ROOT.war /opt/eap/standalone/deployments/helloworld-ws.war
