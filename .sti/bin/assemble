@@ -2,4 +2,5 @@
 
 echo | pwd
 echo | ls
-mv /tmp/src/helloworld-ws/target/ROOT.war /opt/eap/standalone/deployments/helloworld-ws.war
+# mv /tmp/src/helloworld-ws/target/ROOT.war /opt/eap/standalone/deployments/helloworld-ws.war
+# copy a sh script (checks <time/empty deploy dir> and copies)
