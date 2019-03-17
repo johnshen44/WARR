@@ -11,3 +11,4 @@ echo | whoami
 # DEPLOY_DIR=$JWS_HOME/webapps
 # echo ${WAR_FILE_URL}
 # curl -o ${DEPLOY_DIR}/ROOT.war -O ${WAR_FILE_URL}
+mkdir /jontest
