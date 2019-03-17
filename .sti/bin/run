@@ -1,4 +1,5 @@
+
 #!/bin/bash -e
 echo | pwd
 mv /tmp/src/helloworld-ws/target/ROOT.war /opt/eap/standalone/deployments/helloworld-ws.war
-
+echo "moved ok"
