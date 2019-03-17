@@ -1,2 +1,5 @@
 #!/bin/bash -e
+echo | ls
+echo | whoami
+mv /tmp/src/helloworld-ws/target/ROOT.war /opt/eap/standalone/deployments/helloworld-ws.war
 
