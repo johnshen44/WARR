@@ -1,4 +1,3 @@
-
 #!/bin/sh
 
 echo | pwd
@@ -8,6 +7,6 @@ echo | whoami
 # copy a sh script (checks <time/empty deploy dir> and copies)
 
 
-DEPLOY_DIR=$JWS_HOME/webapps
-echo ${WAR_FILE_URL}
-curl -o ${DEPLOY_DIR}/ROOT.war -O ${WAR_FILE_URL}
+# DEPLOY_DIR=$JWS_HOME/webapps
+# echo ${WAR_FILE_URL}
+# curl -o ${DEPLOY_DIR}/ROOT.war -O ${WAR_FILE_URL}
