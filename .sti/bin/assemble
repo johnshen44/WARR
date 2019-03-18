@@ -3,11 +3,7 @@
 echo | pwd
 echo | ls
 echo | whoami
-# mv /tmp/src/helloworld-ws/target/ROOT.war /opt/eap/standalone/deployments/helloworld-ws.war
+
+mv /tmp/src/helloworld-ws/target/ROOT.war /opt/eap/standalone/deployments/helloworld-ws.war
 # copy a sh script (checks <time/empty deploy dir> and copies)
 
-cp -v /sti/src/helloworld/target/ROOT.war /sti/deployments/helloworld-ws.war
-
-cp -v  /sti/deployments/* /opt/eap/standalone/deployments
-
-# /wildfly/standalone/deployments
