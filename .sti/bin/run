@@ -4,4 +4,4 @@ echo -e
 cd ..
 echo | pwd
 echo |ls
-CMD tail -f /dev/null
+tail -f /dev/null
