@@ -32,7 +32,7 @@ public class HelloWorldServiceImpl implements HelloWorldService {
 
     @Override
     public String sayHello() {
-        return "Hello World44! jontestxxx";
+        return "Hello World45! jontestxxx";
     }
 
     @Override
